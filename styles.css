@@ -59,6 +59,7 @@ nav ul li a {
     border-radius: 5px;
     flex: 1; /* Allow buttons to grow and shrink as needed */
     text-align: center;
+    max-width: 200px; /* Ensure buttons don't get too wide */
 }
 
 .cta-buttons .btn:hover {
