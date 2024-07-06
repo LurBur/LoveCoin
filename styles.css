@@ -5,6 +5,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* Light grey background for better readability */
+    color: #333; /* Default text color */
 }
 
 header {
@@ -32,7 +34,8 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: #f4f4f4;
+    background: #fff; /* White background */
+    color: #333; /* Dark text color for readability */
 }
 
 .hero .logo {
@@ -65,10 +68,19 @@ h2 {
 }
 
 .feature, .team-member {
-    background: #f4f4f4;
+    background: #fff;
     padding: 20px;
     margin: 10px 0;
     border-radius: 5px;
+}
+
+.feature h3, .team-member h4 {
+    margin-top: 0;
+}
+
+.partner-logos img {
+    max-width: 100px;
+    margin: 10px;
 }
 
 footer {
@@ -76,9 +88,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
-    bottom: 0;
 }
 
 footer .social-media a {
