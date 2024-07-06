@@ -40,10 +40,15 @@ nav ul li a {
 
 .hero .logo {
     max-width: 200px;
+    margin-top: 20px;
 }
 
 .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the spacing between buttons */
     margin: 20px 0;
+    flex-wrap: wrap; /* Ensure buttons wrap to the next line if needed */
 }
 
 .cta-buttons .btn {
@@ -51,8 +56,9 @@ nav ul li a {
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    margin: 0 5px;
     border-radius: 5px;
+    flex: 1; /* Allow buttons to grow and shrink as needed */
+    text-align: center;
 }
 
 .cta-buttons .btn:hover {
@@ -96,4 +102,4 @@ footer .social-media a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
-}
+    }
